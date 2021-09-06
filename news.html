@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Trang Thông Tin – Trang Thông Tin</title>
+</head>
+
+<body style="background-color: #f5f5f5">
+    <div class="container-fluid" style="background-color: #ffffff">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" width="108" height="23" alt="" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="c-show-pipe"></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="margin-left: 9px; font-size: 18px; font-weight: 600">Trang
+                            chủ <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown office365">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            Về Microsoft
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Tổng quan</a>
+                            <a class="dropdown-item" href="#">Dữ kiện</a>
+                            <a class="dropdown-item" href="#">Tin tức</a>
+                            <a class="dropdown-item" href="#">Vị trí Văn phòng</a>
+                            <a class="dropdown-item" href="#">Thu mua</a>
+                            <a class="dropdown-item" href="#">Pháp lý</a>
+                            <a class="dropdown-item" href="#">Liên hệ với Chúng tôi</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown office365">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            Sản phẩm
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Tổng quan</a>
+                            <a class="dropdown-item" href="#">Hội đồng quản trị</a>
+                            <a class="dropdown-item" href="#">Lãnh đạo Cấp cao</a>
+                            <a class="dropdown-item" href="#">Câu chuyện</a>
+                            <a class="dropdown-item" href="#">Mạng lưới Cựu sinh viên</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown office365">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            Cộng đồng
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Tổng quan</a>
+                            <a class="dropdown-item" href="#">đổi mới</a>
+                            <a class="dropdown-item" href="#">Tính đa dạng & Hòa nhập</a>
+                            <a class="dropdown-item" href="#">Trách nhiệm xã hội của công ty</a>
+                            <a class="dropdown-item" href="#">AI</a>
+                            <a class="dropdown-item" href="#">Điện toán Đáng tin cậy</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown office365">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            Thông tin Báo chí
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Tổng quan</a>
+                            <a class="dropdown-item" href="#">đổi mới</a>
+                            <a class="dropdown-item" href="#">Tính đa dạng & Hòa nhập</a>
+                            <a class="dropdown-item" href="#">Trách nhiệm xã hội của công ty</a>
+                            <a class="dropdown-item" href="#">AI</a>
+                            <a class="dropdown-item" href="#">Điện toán Đáng tin cậy</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="my-2 my-lg-0">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item menu__item">
+                            <a class="nav-link" href="#">Tất cả Microsoft <i
+                                    class="fas fa-angle-down arrowdow"></i><span class="sr-only">(current)</span></a>
+                            <div class="menu__child">
+                                <div class="menu__child-item">
+                                    <span class="menuheading">Phần mềm</span>
+                                    <ul class="menu__child-list">
+                                        <li><a href="">Ứng dụng cho Windows</a></li>
+                                        <li><a href="">Outlook</a></li>
+                                        <li><a href="">Microsoft Teams</a></li>
+                                    </ul>
+                                </div>
+                                <div class="menu__child-item">
+                                    <span class="menuheading">Máy tính và các thiết bị</span>
+                                    <ul class="menu__child-list">
+                                        <li><a href="">Mua Xbox</a></li>
+                                        <li><a href="">Phụ kiện máy tính</a></li>
+                                    </ul>
+                                </div>
+                                <div class="menu__child-item">
+                                    <span class="menuheading">Giải trí</span>
+                                    <ul class="menu__child-list">
+                                        <li><a href="">Trò chơi trên PC</a></li>
+                                        <li><a href="">Trò chơi trên Windows</a></li>
+                                    </ul>
+                                </div>
+                                <div class="menu__child-item">
+                                    <span class="menuheading">Kinh doanh</span>
+                                    <ul class="menu__child-list">
+                                        <li><a href="">Microsoft 365</a></li>
+                                        <li><a href="">Windows 365</a></li>
+                                        <li><a href="">Microsoft Industry</a></li>
+                                        <li><a href="">Microsoft Advertising</a></li>
+                                    </ul>
+                                </div>
+                                <div class="menu__child-item">
+                                    <span class="menuheading">Developer & IT</span>
+                                    <ul class="menu__child-list">
+                                        <li><a href="">.NET</a></li>
+                                        <li><a href="">Windows Server</a></li>
+                                        <li><a href="">Windows Dev Center</a></li>
+                                        <li><a href="">Tài liệu</a></li>
+                                        <li><a href="">Power Platform</a></li>
+                                    </ul>
+                                </div>
+                                <div class="menu__child-item">
+                                    <span class="menuheading">Khác</span>
+                                    <ul class="menu__child-list">
+                                        <li><a href="">Bản tải xuống và bảo mật miễn phí</a></li>
+                                        <li><a href="">Giáo dục</a></li>
+                                        <li><a href="">Licensing</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-search fa-flip-horizontal fa-lg"
+                                    style="color: #262626; margin-right: 7px"></i>
+                                <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-usericon" href="#"><i class="fas fa-user-plus" style="
+                      color: #7c7c7c;
+                      border: 1px solid;
+                      padding: 7px 5px;
+                      border-radius: 50%;
+                      margin-top: 2px;
+                    "></i>
+                                <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container-fluid" style="margin-top: 35px">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-12" style="padding: 0; padding-right: 15px;">
+                <h2 style="font-size: 20px; font-weight: 400">Nổi bật</h2>
+                <div class="col-12" style="padding: 0; margin-bottom: 25px;">
+                    <a href="news-detail.html">
+                        <img src="/images/Picture1.webp" alt="" width="100%" />
+                        <div class="m-preview-content">
+                            <p class="c-meta-text">
+                                <span>Aug 31, 2021</span> &nbsp;|&nbsp;&nbsp;
+                                <a href="https://news.microsoft.com/vi-vn/author/linhlinh/"
+                                    class="c-hyperlink">Microsoft Vietnam Communications</a>
+                            </p>
+                            <a href="news-detail.html" class="f-post-link">
+                                <h3 style="font-size: 24px; font-weight: 500">
+                                    Windows 11 sẽ chính thức ra mắt vào ngày 5 tháng 10 <img src="/images/next.svg"
+                                        alt="" height="18" />
+                                </h3>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12" style="padding: 0; margin-bottom: 25px;">
+                    <a href="#">
+                        <img src="/images/Photo-5-960x540.png" alt="" width="100%" />
+                        <div class="m-preview-content">
+                            <p class="c-meta-text">
+                                <span>Aug 31, 2021</span> &nbsp;|&nbsp;&nbsp;
+                                <a href="https://news.microsoft.com/vi-vn/author/linhlinh/"
+                                    class="c-hyperlink">Microsoft Vietnam Communications</a>
+                            </p>
+                            <a href="#" class="f-post-link">
+                                <h3 style="font-size: 24px; font-weight: 500">
+                                    Microsoft và IOM hợp tác ra mắt nền tảng học trực tuyến Công dân
+                                    số <img src="/images/next.svg" alt="" height="18" />
+                                </h3>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12" style="padding: 0; margin-bottom: 25px;">
+                    <a href="#">
+                        <img src="/images/Picture4-960x540.jpg" alt="" width="100%" />
+                        <div class="m-preview-content">
+                            <p class="c-meta-text">
+                                <span>Aug 31, 2021</span> &nbsp;|&nbsp;&nbsp;
+                                <a href="https://news.microsoft.com/vi-vn/author/linhlinh/"
+                                    class="c-hyperlink">Microsoft Vietnam Communications</a>
+                            </p>
+                            <a href="#" class="f-post-link">
+                                <h3 style="font-size: 24px; font-weight: 500">
+                                    Microsoft ra mắt Windows 365 – mở ra một kỷ nguyên điện toán cá
+                                    nhân mới <img src="/images/next.svg" alt="" height="18" />
+                                </h3>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12" style="padding: 0;">
+                <h2 style="font-size: 20px; font-weight: 400">Xem thêm</h2>
+                <div class="col-12" style="padding: 0; margin-bottom: 25px;">
+                    <a href="#">
+                        <img src="/images/Windows-11-Bloom-Screensaver-Dark-1000x562-1-960x540.jpg" alt=""
+                            width="100%" />
+                        <div class="m-preview-content">
+                            <p class="c-meta-text">
+                                <span>Aug 31, 2021</span> &nbsp;|&nbsp;&nbsp;
+                                <a href="https://news.microsoft.com/vi-vn/author/linhlinh/"
+                                    class="c-hyperlink">Microsoft Vietnam Communications</a>
+                            </p>
+                            <a href="#" class="f-post-link">
+                                <h3 style="font-size: 18px; font-weight: 500">Windows 11 nâng cao trải nghiệm thân thuộc
+                                    cho người dùng <img src="/images/next.svg" alt="" height="10" />
+                                </h3>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12" style="padding: 0; margin-bottom: 25px;">
+                    <a href="#">
+                        <img src="/images/Hero-Bloom-Logo-1000x563-1-960x540.jpg" alt="" width="100%" />
+                        <div class="m-preview-content">
+                            <p class="c-meta-text">
+                                <span>Aug 31, 2021</span> &nbsp;|&nbsp;&nbsp;
+                                <a href="https://news.microsoft.com/vi-vn/author/linhlinh/"
+                                    class="c-hyperlink">Microsoft Vietnam Communications</a>
+                            </p>
+                            <a href="#" class="f-post-link">
+                                <h3 style="font-size: 18px; font-weight: 500">Microsoft chính thức ra mắt Windows 11
+                                    <img src="/images/next.svg" alt="" height="10" />
+                                </h3>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12" style="padding: 0; margin-bottom: 25px;">
+                    <a href="#">
+                        <img src="/images/MS-Teams-960x540.jpg" alt="" width="100%" />
+                        <div class="m-preview-content">
+                            <p class="c-meta-text">
+                                <span>Aug 31, 2021</span> &nbsp;|&nbsp;&nbsp;
+                                <a href="https://news.microsoft.com/vi-vn/author/linhlinh/"
+                                    class="c-hyperlink">Microsoft Vietnam Communications</a>
+                            </p>
+                            <a href="#" class="f-post-link">
+                                <h3 style="font-size: 18px; font-weight: 500">Microsoft Teams miễn phí dành cho gia đình
+                                    và bạn bè đã có mặt tại Việt Nam <img src="/images/next.svg" alt="" height="10" />
+                                </h3>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12" style="padding: 0; margin-bottom: 25px;">
+                    <a href="#">
+                        <img src="/images/Build2021-960x540.png" alt="" width="100%" />
+                        <div class="m-preview-content">
+                            <p class="c-meta-text">
+                                <span>Aug 31, 2021</span> &nbsp;|&nbsp;&nbsp;
+                                <a href="https://news.microsoft.com/vi-vn/author/linhlinh/"
+                                    class="c-hyperlink">Microsoft Vietnam Communications</a>
+                            </p>
+                            <a href="#" class="f-post-link">
+                                <h3 style="font-size: 18px; font-weight: 500">
+                                    Microsoft ❤ Lập trình viên – Microsoft Build 2021 <img src="/images/next.svg" alt=""
+                                        height="10" />
+                                </h3>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12" style="padding: 0; margin-bottom: 25px;">
+                    <a href="#">
+                        <img src="/images/Inspire-Imagery-.jpg" alt="" width="100%" />
+                        <div class="m-preview-content">
+                            <p class="c-meta-text">
+                                <span>Aug 31, 2021</span> &nbsp;|&nbsp;&nbsp;
+                                <a href="https://news.microsoft.com/vi-vn/author/linhlinh/"
+                                    class="c-hyperlink">Microsoft Vietnam Communications</a>
+                            </p>
+                            <a href="#" class="f-post-link">
+                                <h3 style="font-size: 18px; font-weight: 500">Microsoft công bố sản phẩm và hướng dẫn
+                                    tăng cường bảo mật cho môi trường làm việc kết hợp <img src="/images/next.svg"
+                                        alt="" height="10" />
+                                </h3>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer" style="margin-top: 48px; background-color: #f2f2f2">
+        <div class="container" style="padding: 0">
+            <div class="row" style="margin-left: 0; margin-right: 0">
+                <div class="col-lg-2 col-md-4 col-sm-4 col-12 footer_col">
+                    <div class="c-heading-4">Nội dung mới</div>
+                    <a class="footer_row" href="">Microsoft 365</a>
+                    <a class="footer_row" href="">Ứng dụng cho Windows 10</a>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 col-12 footer_col">
+                    <div class="c-heading-4">Microsoft Store</div>
+                    <a class="footer_row" href="">Hồ sơ tài khoản</a>
+                    <a class="footer_row" href="">Trung tâm Tải xuống</a>
+                    <a class="footer_row" href="">Trả lại</a>
+                    <a class="footer_row" href="">Theo dõi đơn hàng</a>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 col-12 footer_col">
+                    <div class="c-heading-4">Giáo dục</div>
+                    <a class="footer_row" href="">Microsoft trong giáo dục</a>
+                    <a class="footer_row" href="">Office cho học sinh</a>
+                    <a class="footer_row" href="">Office 365 cho trường học</a>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 col-12 footer_col">
+                    <div class="c-heading-4">Doanh nghiệp</div>
+                    <a class="footer_row" href="">Microsoft Azure</a>
+                    <a class="footer_row" href="">Microsoft Industry</a>
+                    <a class="footer_row" href="">Dịch vụ Tài chính</a>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 col-12 footer_col">
+                    <div class="c-heading-4">Nhà phát triển</div>
+                    <a class="footer_row" href="">Microsoft Visual Studio</a>
+                    <a class="footer_row" href="">Trung tâm nhà phát triển</a>
+                    <a class="footer_row" href="">Kênh 9</a>
+                    <a class="footer_row" href="">Trung tâm Phát triển Microsoft 365</a>
+                    <a class="footer_row" href="">Chương trình Nhà phát triển Microsoft 365</a>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 col-12 footer_col">
+                    <div class="c-heading-4">Công ty</div>
+                    <a class="footer_row" href="">Sự nghiệp</a>
+                    <a class="footer_row" href="">Giới thiệu về Microsoft</a>
+                    <a class="footer_row" href="">Tin tức công ty</a>
+                    <a class="footer_row" href="">Quyền riêng tư ở Microsoft</a>
+                    <a class="footer_row" href="">Nhà đầu tư</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="
+              col-lg-4 col-md-12 col-sm-12 col-12
+              footer_bottom-col footer_bottom
+            ">
+                    <i class="fas fa-globe-asia" style="font-size: 20px; margin-right: 10px"></i>Tiếng Việt (Việt Nam)
+                </div>
+                <div class="
+              col-lg-8 col-md-12 col-sm-12 col-12
+              footer_bottom-col footer_bottom
+            ">
+                    Liên hệ với Microsoft &nbsp;&nbsp;&nbsp;&nbsp; Quyền riêng tư
+                    &nbsp;&nbsp;&nbsp;&nbsp; Điều khoản sử dụng &nbsp;&nbsp;&nbsp;&nbsp;
+                    Nhãn hiệu &nbsp;&nbsp;&nbsp;&nbsp; Giới thiệu về quảng cáo của chúng
+                    tôi &nbsp;&nbsp;&nbsp;&nbsp; ©Microsoft 2021
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
